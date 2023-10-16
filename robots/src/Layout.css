@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-.header {
+/* .header {
     height: 100vh;
-    background-color: #014754;
-}
+
+} */
 
 .header-content {
     text-align: center;
@@ -19,6 +19,9 @@
     text-transform: uppercase;
     color: rgb(31, 251, 152);
     padding: 10px;
+}
+.load {
+    text-align: center;
 }
 .header-input {
     padding: 13px;
