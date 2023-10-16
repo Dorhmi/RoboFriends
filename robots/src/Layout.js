@@ -2,6 +2,7 @@ import React , {Component} from "react";
 import CardsContainer from './Cardscontainer';
 import './Layout.css';
 import Searchbox from './Searchbox';
+import Scroll from "./Scroll";
 
 class Layout extends Component{
     constructor() {
@@ -34,9 +35,9 @@ class Layout extends Component{
                     <h1 className="header-title">robofriends</h1>
                     <Searchbox searchchange = {this.searchOnChange} />
                     </div>
-                    <div>
+                    <Scroll>
                         <CardsContainer robots={filtredArray} /> 
-                    </div>
+                    </Scroll>
                 </header>
             );
         }

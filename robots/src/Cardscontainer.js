@@ -15,9 +15,9 @@ const CardsContainer = ({robots}) => {
         )
     })
     return (
-        <div className="cards-container">
+        <span>
             {cardsArray}
-        </div>
+        </span>
     )
 }
 export default CardsContainer ;
