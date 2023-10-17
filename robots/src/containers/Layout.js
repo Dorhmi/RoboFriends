@@ -1,8 +1,8 @@
 import React , {Component} from "react";
-import CardsContainer from './Cardscontainer';
+import CardsContainer from '../components/Cardscontainer';
 import './Layout.css';
-import Searchbox from './Searchbox';
-import Scroll from "./Scroll";
+import Searchbox from '../components/Searchbox';
+import Scroll from "../components/Scroll";
 
 class Layout extends Component{
     constructor() {

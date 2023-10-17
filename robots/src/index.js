@@ -4,7 +4,7 @@ import './index.css';
 // import CardsContainer from './Cardscontainer';
 import reportWebVitals from './reportWebVitals';
 // import { robots } from './robots';
-import Layout from './Layout';
+import Layout from './containers/Layout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
